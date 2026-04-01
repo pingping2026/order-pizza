@@ -1,0 +1,188 @@
+body {
+    margin:0
+} 
+
+header{
+    background-image:url('header.png');
+    background-size: cover;
+    color: #ffffff;
+    font-family: Smythe;
+    
+}
+
+.title{
+    padding: 20px 0px 0px 20px;
+    font-size: 24px;
+    margin: 0px;
+}
+.descr{
+    font-size: 10px;
+    padding: 0px 0px 20px 20px;
+    margin: 0px;
+}
+.container{
+    display: flex;
+    border-bottom: 3px solid whitesmoke;
+    margin:0px 20px
+}
+
+.food-img{
+    font-size: 70px;
+    padding: 15px 0px 0px 5px ;
+    margin: 0px;
+}
+
+.food-des{
+    color:#000000;
+    padding: 15px 0px 0px 5px;
+    margin: 0px;
+    font-family: Smythe;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.food-name{
+    color:#000000;
+    font-size: 24px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ingredients{
+    color:#8B8B8B;
+    font-size: 12px;
+    margin: 0px;
+    padding: 5px 0px;
+}
+.food-price{
+    color:#000000;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.add{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor:pointer;
+    display: block;
+    margin: auto 12px auto auto;
+    border-color: whitesmoke;
+    color: #8B8B8B;
+}
+
+.add:hover{
+    color: red;
+    border-color: red;
+}
+
+.bill{
+    font-family: Smythe;
+    margin:0px 20px
+}
+
+.bill-title{
+    text-align: center;
+    margin:30px 0px 10px 0px;
+    font-size: 18px; 
+}
+
+.ordered-food-list{
+    border-bottom: 1px solid #000000;
+    padding: 10px 0px;
+    margin: 0px;
+}
+
+.ordered-food{
+    display: flex; 
+    align-items: center;         
+}
+
+.name{
+    padding: 0px;
+    font-size: 20px;
+    margin: 0px 5px 0px 10px;
+}
+
+.remove-btn{
+    border: none;
+    color: gray;
+    background-color: #ffffff;
+    font-size: 10px;
+    margin: 0px;
+}
+
+.price{
+    font-size: 15px;
+    margin:0px 10px 0px auto;
+    padding:0px;
+}
+
+.total-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:10px 0px;
+}
+
+.btn{
+    background-color: #16DB99;
+    border: none;
+    display: block;
+    width:100%;
+    color: white;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); 
+  z-index: 999; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.modal-content {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 320px;
+  width: 280px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 6px 2px #666;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+  font-family: Smythe;
+  box-sizing: border-box;
+}
+
+.modal-input{
+    margin:20px 20px 20px 0px;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    font-size: 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+
+.finishLine{
+    text-align: center;
+    margin: 30px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #ECFDF5;
+    color: #065F46;
+}

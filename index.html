@@ -1,0 +1,26 @@
+<html>
+    <head>
+       <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+       <header>
+        <p class="title">Jimmy's Diner</p>
+        <p class="descr">The best burgers and pizzas in town.</p>
+       </header>
+       <main class="food-list" id="food-list"></main>
+       <div class="bill" id="ordered-food"></div>
+	   <script src="index.js" type="module"></script> 
+    </body>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <h3>Enter card details</h3>
+            <form id="paymentForm">
+            <input type="text" id="userName" placeholder="Enter your name" class="modal-input" required>
+            <input type="number" placeholder="Enter card number" class="modal-input" required>
+            <input type="number" placeholder="Enter CVV" class="modal-input" required>
+            <button type="submit" class="btn" >Pay</button>
+            </form>
+        </div>
+     </div>
+</html>
+
